@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+app:
+  mensaje:
+    bienvenida: "Bienvenido al API Gateway - Sistema Mesa de Ayuda"
