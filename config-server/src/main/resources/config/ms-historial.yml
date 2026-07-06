@@ -20,3 +20,9 @@ spring:
 app:
   mensaje:
     bienvenida: "Servicio de Historial activo"
+
+info:
+  app:
+    name: ms-historial
+    description: Servicio de historial de atencion de tickets
+    version: 1.0.0

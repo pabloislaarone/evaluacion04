@@ -20,3 +20,9 @@ spring:
 app:
   mensaje:
     bienvenida: "Servicio de Tickets activo"
+
+info:
+  app:
+    name: ms-tickets
+    description: Servicio de gestion de tickets de soporte
+    version: 1.0.0

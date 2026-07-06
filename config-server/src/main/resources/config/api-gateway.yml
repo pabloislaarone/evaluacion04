@@ -8,3 +8,9 @@ spring:
 app:
   mensaje:
     bienvenida: "Bienvenido al API Gateway - Sistema Mesa de Ayuda"
+
+info:
+  app:
+    name: api-gateway
+    description: Puerta de entrada unica del sistema Mesa de Ayuda
+    version: 1.0.0
