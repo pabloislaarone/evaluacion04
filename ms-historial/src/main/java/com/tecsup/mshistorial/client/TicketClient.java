@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "ms-tickets")
+@FeignClient(name = "ms-tickets", fallback = TicketClientFallback.class)
 public interface TicketClient {
 
     @GetMapping("/api/tickets/{id}")
